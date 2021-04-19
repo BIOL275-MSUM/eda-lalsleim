@@ -1,0 +1,38 @@
+---
+title: "The Relationship Between State Mandates and the Increase of the Corona Virus"
+author: "LARA AL SELIM"
+date: "2021-04-19"
+output: github_document
+---
+
+## Abstract
+
+The well conversed Corona Virus, SARS-CoV-2, has hit the world at a fast pace leaving many individuals in a state of distress and panic as it proceeds to cause mild to moderate respiratory illnesses. Although some cases are not deadly, many elderly individuals and individuals with underlying medical illnesses may experience a more severe to deadly effect from the virus. This infectious virus is known to have been commonly spread through droplets of saliva or nose discharge when an infected individual coughs or sneezes. Such droplets are usually subject to traveling a few feet away from the initial exposure position within a matter of seconds. Knowing this, a multitude of states have passed mandates such as the continuous wear of face masks and the spacious nature of 6 feet apart in hopes of lessening the spread of this virus. Inquisitive nature has led me to question withier the extremities of each states’ mandates had an affect on the number of infected individuals as well as the survival and death rates of the infected. All of my data will be collected from “The COVID Tracking Project” at The Atlantic, which is data connected directly from the websites of state/territory public health authorities. I will be embarking upon exploratory data analysis from both North Dakota and Minnesota data sets in order to identify which state had the most incline in cases. I will also be using exploratory data analysis from the North Dakota and Minnesota data sets in order to identify which state had the most total deaths per infected individual. This will then allow me to identify how each states’ mandates had aided in the prevention of the COVID-19 spread. By identifying the extremities each state had embarked upon, I will be able to further analyze what preventative measures were justifiable to lessening the spread of the Corona Virus.
+
+## Introduction
+
+Exactly one year after COVID-19 pandemic hit most part of the United States, there has yet to be a cure for this virus. It is also unknown how much the mortality rates is affected by hospitalization. IT is important to know if hospitalizing patients help parents recover. We put this into consideration as there is no cure in hospitals that would necessarily confer any type of advantage of hospitalization.
+
+Some factors that could alter the accuracy or discrepancies of our hypothesis are patient-risk factors and level of healthcare and facilities at the individual hospitals
+
+## Methods
+
+### Data Acquisition
+
+The data for this project was gathered from covid data tracking website through the Lab website for Quantitative Biology.
+
+This website '' The COVID Tracking Project at Atlantic''(Atlantic covid tracking, 2021) contained relevant covid statistics fro all the 50 states in the country. I did not have to request access for this website, I just had to click the link, copy it into R Studio and run it with the read csv function.
+
+### Data Description
+
+Each row in this data represent a day in the state of Texas. Data is recorded everyday since the 3rd of March 2020.
+
+### Data Preparation
+
+In this project we used Rstudio (R Core Team, 2021) to clean up and prepare our data. First we loaded the tidyverse package (wickham et al, 2019)
+
+**References**
+
+-   R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL <https://www.R-project.org/>.
+
+-   Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686, <https://doi.org/10.21105/joss.01686>
